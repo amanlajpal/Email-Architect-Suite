@@ -206,10 +206,11 @@ export default function DashboardPage() {
     );
   }
 
-  if (!user) {
-    navigate('/');
-    return null;
-  }
+  useEffect(() => {
+    if (!user) {
+      navigate("/");
+    }
+  }, [user, navigate]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { X, Save, Share2, Copy, Check } from 'lucide-react';
-import { Sequence } from '@/shared/types';
+import { Sequence } from '../../shared/types';
 
 interface TemplateModalProps {
   sequence: Sequence;

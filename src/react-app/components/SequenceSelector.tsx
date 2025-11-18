@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ChevronDown, Plus, FolderOpen } from 'lucide-react';
-import { Sequence } from '@/shared/types';
+import { Sequence } from '../../shared/types';
 
 interface SequenceSelectorProps {
   sequences: Sequence[];

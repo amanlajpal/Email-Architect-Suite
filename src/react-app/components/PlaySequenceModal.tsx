@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { X, Play, Settings, CheckCircle, Clock, AlertCircle, Pause, Square } from 'lucide-react';
-import { Sequence } from '@/shared/types';
+import { Sequence } from '../../shared/types';
 
 interface PlaySequenceModalProps {
   sequence: Sequence;

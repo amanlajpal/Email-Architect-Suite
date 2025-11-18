@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { Clock, Edit, Trash2, Mail, Calendar, GitBranch } from 'lucide-react';
-import { EmailBlock, Connection, BLOCK_TYPE_CONFIG, CONDITION_TYPE_CONFIG } from '@/shared/types';
+import { EmailBlock, Connection, BLOCK_TYPE_CONFIG, CONDITION_TYPE_CONFIG } from '../../shared/types';
 
 interface TimelineViewProps {
   blocks: EmailBlock[];

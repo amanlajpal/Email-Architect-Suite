@@ -1,5 +1,5 @@
 import { Handle, Position, NodeProps } from 'reactflow';
-import { EmailBlock, BLOCK_TYPE_CONFIG } from '@/shared/types';
+import { EmailBlock, BLOCK_TYPE_CONFIG } from '../../shared/types';
 import { Clock, Edit, Trash2, StickyNote, Copy } from 'lucide-react';
 
 interface EmailBlockNodeData extends EmailBlock {

@@ -15,7 +15,7 @@ import 'reactflow/dist/style.css';
 import EmailBlockNode from './EmailBlockNode';
 import UndoRedoControls from './UndoRedoControls';
 import useUndoRedo from '@/react-app/hooks/useUndoRedo';
-import { EmailBlock, Connection as DBConnection, BLOCK_TYPE_CONFIG, CONDITION_TYPE_CONFIG } from '@/shared/types';
+import { EmailBlock, Connection as DBConnection, BLOCK_TYPE_CONFIG, CONDITION_TYPE_CONFIG } from '../../shared/types';
 
 const nodeTypes = {
   emailBlock: EmailBlockNode,

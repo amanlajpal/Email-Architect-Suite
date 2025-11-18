@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { X, Wand2, ChevronDown, Loader2, Coins } from 'lucide-react';
-import { EmailBlockTypeT, BLOCK_TYPE_CONFIG } from '@/shared/types';
+import { EmailBlockTypeT, BLOCK_TYPE_CONFIG } from '../../shared/types';
 import { SUBJECT_LINE_TEMPLATES, CTA_TEMPLATES } from '@/react-app/data/emailTemplates';
 
 interface AIContentModalProps {

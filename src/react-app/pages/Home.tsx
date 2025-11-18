@@ -16,7 +16,7 @@ import TemplateModal from '@/react-app/components/TemplateModal';
 import AccountSettingsModal from '@/react-app/components/AccountSettingsModal';
 
 import { useSequences, useSequenceData } from '@/react-app/hooks/useApi';
-import { EmailBlock, EmailBlockTypeT, BLOCK_TYPE_CONFIG } from '@/shared/types';
+import { EmailBlock, EmailBlockTypeT, BLOCK_TYPE_CONFIG } from '../../shared/types';
 import { EMAIL_TEMPLATES } from '@/react-app/data/emailTemplates';
 
 export default function HomePage() {

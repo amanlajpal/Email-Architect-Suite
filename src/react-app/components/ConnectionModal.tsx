@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { X, ArrowRight, Zap } from 'lucide-react';
-import { CONDITION_TYPE_CONFIG } from '@/shared/types';
+import { CONDITION_TYPE_CONFIG } from '../../shared/types';
 
 interface ConnectionModalProps {
   sourceBlockName: string;

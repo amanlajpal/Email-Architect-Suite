@@ -17,7 +17,7 @@ import {
   Edit3
 } from 'lucide-react';
 import { useSequences } from '@/react-app/hooks/useApi';
-import { Sequence } from '@/shared/types';
+import { Sequence } from '../../shared/types';
 import PlaySequenceModal from '@/react-app/components/PlaySequenceModal';
 import ExportModal from '@/react-app/components/ExportModal';
 import AccountSettingsModal from '@/react-app/components/AccountSettingsModal';

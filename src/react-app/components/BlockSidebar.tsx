@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ChevronLeft, ChevronRight, Plus, Download, Wand2, Clock, Share2, Copy, Folder } from 'lucide-react';
-import { EmailBlockTypeT, BLOCK_TYPE_CONFIG, Sequence } from '@/shared/types';
+import { EmailBlockTypeT, BLOCK_TYPE_CONFIG, Sequence } from '../../shared/types';
 import { EMAIL_TEMPLATES, TEMPLATE_CATEGORIES } from '@/react-app/data/emailTemplates';
 
 interface BlockSidebarProps {

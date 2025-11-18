@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { X, Download, FileText, Code, Database, Clipboard, Check, ExternalLink } from 'lucide-react';
-import { Sequence } from '@/shared/types';
+import { Sequence } from '../../shared/types';
 
 interface ExportModalProps {
   sequence: Sequence;

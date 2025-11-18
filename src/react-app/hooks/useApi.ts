@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { Sequence, EmailBlock, Connection } from '@/shared/types';
+import { Sequence, EmailBlock, Connection } from '../../shared/types';
 
 // Sequences hook
 export function useSequences() {

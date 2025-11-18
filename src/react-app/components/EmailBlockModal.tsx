@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { X, Mail, Clock, MousePointer, Type, Eye, RefreshCw, Calendar } from 'lucide-react';
-import { EmailBlock, BLOCK_TYPE_CONFIG } from '@/shared/types';
+import { EmailBlock, BLOCK_TYPE_CONFIG } from '../../shared/types';
 import RichTextEditor from './RichTextEditor';
 
 interface EmailBlockModalProps {

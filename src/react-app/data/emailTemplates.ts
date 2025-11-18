@@ -1,4 +1,4 @@
-import { EmailBlockTypeT } from '@/shared/types';
+import { EmailBlockTypeT } from '../../shared/types';
 
 export interface EmailTemplate {
   id: string;
